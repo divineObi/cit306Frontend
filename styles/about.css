@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+footer .sponsor-section .container .sponsor-text {
+    background-color: #D9D9D9;
+    color: #000;
+    font-size: 1.50738rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18088rem;
+    width: 12.5625rem;
+    height: 2.5625rem;
+    text-align: center;
+    padding-top: 0.48rem;
+}
+
+.divider {
+    border: 1px #9C9C9C solid;
+}
+
+.about-community .container .comm-text .heading,
+.about-web .container .comm-text .heading {
+    width: 34.75rem;
+    color: var(--primary-colors-blue, #0C51B8);
+    font-size: 2.17638rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-community .container .comm-text p,
+.about-web .container .comm-text p {
+    width: 38.4375rem;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn a {
+    width: 15.75rem;
+    height: 3.71344rem;
+    border: 1px #0C51B8 solid;
+    border-radius: 2.73169rem;
+    background: var(--gradients-gradient-2, linear-gradient(135deg, #00A9B4 19.60%, #0C51B8 100%));
+    color: var(--primary-colors-white, #FFF);
+    font-size: 1.48631rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 0.93rem 2.72rem;
+}
+
+.btn a:hover {
+    background: transparent;
+    border: 1.5px solid #0C51B8;
+    transition: all .5s;
+    color: #0C51B8;
+}
+
+.unusual {
+    background: lightgray 50% / cover no-repeat;
+}
