@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/register.css"> <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="styles/custom.css"> <!-- Include your custom CSS file -->
 </head>
 
 <body>
@@ -46,46 +46,36 @@
     </header>
 
     <main>
+        <div class="sect-title container mt-5">
+            <h2>Register for Web Dev Summit 23</h2>
+            <p>Carefully review information before submission</p>
+        </div>
         <div class="about-web mt-5">
-            <div class="container d-flex justify-content-between">
-                <div class="comm-text">
-                    <div class="heading mb-4 text-right" style="white-space: nowrap;">Register For Web Dev Summit 2023</div>
-                    <h4>Carefully review information before submission</h4>
-        <div class="about-web mt-5">
-            <div class="container d-flex justify-content-between">
-                <form class="border-solid">
-                    <div class="heading mb-2 text-center" style="white-space: nowrap;">Register for the event</div>
-                    <div style="margin-bottom: 10px;">
-                        <input type="text" placeholder="Surname" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <input type="text" placeholder="Other Names" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <input type="email" placeholder="E-mail" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <input type="tel" placeholder="Phone Number" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <input type="text" placeholder="Area of Interest/Specialization" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
-                    </div>
-                    <div style="display: flex; justify-content: space-between;">
-                        <div style="flex: 1;">
-                            <label style="display: block;">
-                                <input type="checkbox">
-                                I have read and accept the Terms of Service & Privacy Policy
+            <div class="container">
+                <form class="border-solid" action="">
+                    <p class="my-2 py-2 text-center" style="white-space: nowrap;">Register for the event</p>
+                    <input type="text" class="rounded-4 mb-4" placeholder="Surname" name="surname" required>
+                    <input type="text" class="rounded-4 mb-4" placeholder="Other Names" name="otherNames" required>
+                    <input type="email" class="rounded-4 mb-4" placeholder="E-mail" name="email" required>
+                    <input type="tel" class="rounded-4 mb-4" placeholder="Phone Number" name="phoneNo" required>
+                    <input type="text" class="rounded-4 mb-4" placeholder="Area of Interest/Specialization"
+                        name="areaOfInterest" required>
+
+                    <div class="form-footer">
+                        <div class="label-sect">
+                            <label> <input type="checkbox">
+                                <span class="ps-2">I have read and accept the Terms of Service & Privacy Policy</span>
                             </label>
-                            <label style="display: block;">
+                            <label>
                                 <input type="checkbox">
-                                Receive updates from us via e-mail
+                                <span class="ps-2">Receive updates from us via e-mail</span>
                             </label>
                         </div>
-                        <div class="btn my-3"> <a href="">Register Now</a></div>
+                        <div class="btn"> <a href="">Continue</a> </div>
                     </div>
-                </form>        
+                </form>
                 <div class="comm-img">
-                    <img src="img/Designer_Giving_A_Keynote_2.png" alt="">
+                    <img src="img/Designer Giving A Keynote 2.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -132,13 +122,13 @@
             <div class="navbar">
                 <div class="container">
                     <div class="nav-items d-flex">
-                        <div class="list-item"><a href="">Home</a></div>
+                        <div class="list-item"><a href="Index.html">Home</a></div>
                         <div class="list-item">|</div>
-                        <div class="list-item"><a href="">About</a></div>
+                        <div class="list-item"><a href="About.html">About</a></div>
                         <div class="list-item">|</div>
-                        <div class="list-item"><a href="">Committee</a></div>
+                        <div class="list-item"><a href="Committee.html">Committee</a></div>
                         <div class="list-item">|</div>
-                        <div class="list-item"><a href="">Register</a></div>
+                        <div class="list-item"><a href="Register.html">Register</a></div>
                     </div>
                 </div>
             </div>
@@ -157,4 +147,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html
+</html>

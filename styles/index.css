@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,7 @@ header {
     /* height: 65vh;
     width: 100%; */
 }
+
 .heading-images {
     background-color: #FFF;
     /* border-radius: 50%; */
@@ -48,7 +50,7 @@ header .hero-section .hero-image .images img {
 }
 
 .home-web .container {
-    grid-gap: 120px;
+    grid-gap: 90px;
 }
 
 .home-heading {
@@ -60,12 +62,12 @@ header .hero-section .hero-image .images img {
     line-height: normal;
 }
 
-.home-heading img {
+/* .home-heading img {
     Width: 662px;
     Height: 403px;
     Top: 926px;
     Left: 101px;
-}
+} */
 
 .hero-btn button {
     padding: 10px 30px;
@@ -131,19 +133,21 @@ header .hero-section .hero-image .images img {
     font-weight: 400;
     line-height: normal;
 }
-.countdown{
+
+.countdown {
     width: 80vw;
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
     gap: 10px;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     top: 100%;
     left: 50%;
-    
+
 }
-.box{
+
+.box {
     width: 100px;
     height: 200px;
     display: flex;
@@ -154,7 +158,8 @@ header .hero-section .hero-image .images img {
     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
     font-size: 16px;
 }
-.box:after{
+
+.box:after {
     content: "";
     position: absolute;
     background-color: rgba(255, 255, 255, 0.12);
@@ -162,8 +167,9 @@ header .hero-section .hero-image .images img {
     width: 50%;
     left: 0;
 }
-span.num{
-    background-color:#202020;
+
+span.num {
+    background-color: #202020;
     height: 100%;
     width: 100%;
     display: grid;
@@ -171,7 +177,8 @@ span.num{
     font-weight: 600;
     font-size: 5em;
 }
-span.text{
+
+span.text {
     font-size: 1.2em;
     display: block;
     width: 100%;
@@ -179,14 +186,10 @@ span.text{
     padding: 0.5em 0;
     font-weight: 400;
 
-
 }
-.comm-img .comm-img img {
-    display: block;
-    Width: 420.38px;
-    Height: 520px;
-    Top: 1135px;
-    Left: 826.62px;
+
+.comm-img img {
+    padding-top: 250px;
 }
 
 footer .sponsor-section .container .sponsor-text {
@@ -241,4 +244,4 @@ footer .sponsor-section .container .sponsor-text {
 
 .unusual {
     background: lightgray 50% / cover no-repeat;
-} 
+}

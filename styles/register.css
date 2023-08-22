@@ -24,6 +24,125 @@ footer .sponsor-section .container .sponsor-text {
     border: 1px #9C9C9C solid;
 }
 
+.sect-title {
+    /* border: 1px solid red; */
+    width: auto;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.sect-title h2 {
+    font-size: 2rem;
+    color: #0C51B8;
+    font-weight: 700;
+    margin-bottom: 0;
+    /* border: 1px solid green; */
+}
+
+.sect-title p {
+    font-size: 1.5rem;
+    color: #696969;
+}
+
+.about-web .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    /* border: 1px solid red; */
+    margin-bottom: 2rem;
+    /* padding:  0 2rem; */
+}
+
+.about-web .container .border-solid p {
+    color: #0C51B8;
+    font-size: 1.49738rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-web .container form {
+    border: 2px solid #949494;
+    width: 50%;
+    height: inherit;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.about-web .container form .form-footer .label-sect {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.about-web .container form .form-footer label {
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+}
+
+.about-web .container form .form-footer {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.about-web .container form .form-footer .label-sect label {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.about-web .container form .form-footer .label-sect label input {
+    /* border: 1px solid green;
+    background-color: red; */
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.about-web .container form .form-footer .btn {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+    padding: 0;
+}
+
+.about-web .container form .heading {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-web .container form input {
+    /* margin-bottom: 0.5rem; */
+    width: 100%;
+    padding: 0.7rem 0 0.9rem 1rem;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    box-sizing: border-box;
+}
+
+.about-web .container form input::placeholder {
+    color: #949494;
+}
+
+.about-web .container .comm-img {
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 450px;
+}
+
+.about-web .container .comm-img img {
+    width: inherit;
+    height: inherit;
+}
+
 .about-community .container .comm-text .heading,
 .about-web .container .comm-text .heading {
     width: 34.75rem;
@@ -48,18 +167,18 @@ footer .sponsor-section .container .sponsor-text {
 }
 
 .btn a {
-    width: 15.75rem;
-    height: 3.71344rem;
     border: 1px #0C51B8 solid;
     border-radius: 2.73169rem;
     background: var(--gradients-gradient-2, linear-gradient(135deg, #00A9B4 19.60%, #0C51B8 100%));
     color: var(--primary-colors-white, #FFF);
-    font-size: 1.48631rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
-    padding: 0.93rem 2.72rem;
+    padding: 0.93rem 1.85rem;
+    text-align: center;
+    box-shadow: 3px 3px 3px 0.5px #94949488;
 }
 
 .unusual {
